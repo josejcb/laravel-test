@@ -62,7 +62,7 @@ class MainController extends Controller
 				$columns = count($contact);
 				
 				//Taking ("generating") coordinates of this zip code
-				$lon=180/rand (1, 1800000000);
+				$lon=180/rand (-1800000000, 1800000000);
 				$lat=90/rand (-900000000, 900000000);
 				
 				/*
